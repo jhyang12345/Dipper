@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Verdana;
+	color: #e1e2de;
+	position: relative;
+	background-color: #313131;
+}
+
+h1 {
+	font-size: 4em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div {
+	text-align: center;
+}
+
+
+input {
+	margin-bottom: 10px;
+}
+
+#submitbutton {
+	width: 130px;
+	height: 35px;
+}
+
+fieldset {
+	text-align: right;
+	width: 310px;
+	border-radius: 20px;
+	padding-right: 30px;
+}
+
+table.board {
+	border-collapse: collapse;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -215px;
+	margin-left: -215px;
+}
+
+
+
+td {
+	width: 20px;
+	height: 20px;
+	background-color: #fedc60; //#ccccff;
+	border: 1px solid #111111;
+	text-align: center;
+	color: #ffaaaa;
+}
+
+#clear {
+	visibility: hidden;
+	color: rgba(0.0, 0.0, 0.0, 0.0);
+}
+
+#white {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 24px;
+	border: 3px solid #eeeeee;
+	margin: 4px;
+}
+
+#black {
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius: 24px;
+	border: 3px solid #eeeeee;
+	margin: 4px 4px 4px 4px;
+}
+
+table.choice {
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: #aaaaaa;
+	border-radius: 10px;
+}
+
+
+#stone {
+	z-index: 2;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -227px;
+	margin-left: -227px;
+
+}
+
+.stones {
+	width: 20px;
+	height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.0);
+	border-radius: 11px;
+	background-color: rgba(255,155,255,0.0);
+	color: #ccccff;
+
+}
+
+#borders {
+	z-index: 3;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -212px;
+	margin-left: -212px;
+}
+
+.border {
+	width: 20px;
+	height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.0);
+	border-radius: 11px;
+	background-color: rgba(255,155,255, 0.0);
+}
+
+
+
+#black:hover {
+	border-color: rgb(100, 100, 255);
+}
+#white:hover {
+	border-color: rgb(100, 100, 255);
+}
