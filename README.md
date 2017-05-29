@@ -2,4 +2,4 @@
 
 ## Dipper is a javascript-based Gomok AI player  
 
-![Dipper Screenshot](/screenshots/dipper.png)
+![Dipper Screenshot](./screenshots/dipper.png)
